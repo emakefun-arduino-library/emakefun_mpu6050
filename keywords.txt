@@ -1,0 +1,20 @@
+#######################################
+# Classes, datatypes (KEYWORD1)
+#######################################
+
+Mpu6050	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Setup	KEYWORD2
+UpdateQuaternion	KEYWORD2
+GetEuler	KEYWORD2
+GetAcceleration	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+kDefaultDeviceI2cAddress	LITERAL1
