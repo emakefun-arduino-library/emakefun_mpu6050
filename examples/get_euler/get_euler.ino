@@ -11,7 +11,7 @@ void setup() {
 }
 
 void loop() {
-  if (mpu6050.UpdateQuaternion()) {
+  if (mpu6050.UpdateMotionInfo()) {
     const auto euler = mpu6050.GetEuler();
     Serial.print("yaw: ");
     Serial.print(euler.yaw);

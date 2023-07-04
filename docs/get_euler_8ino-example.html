@@ -85,7 +85,7 @@ $(function() {
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span> loop() {</div>
-<div class="line">  <span class="keywordflow">if</span> (mpu6050.UpdateQuaternion()) {</div>
+<div class="line">  <span class="keywordflow">if</span> (mpu6050.UpdateMotionInfo()) {</div>
 <div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> euler = mpu6050.GetEuler();</div>
 <div class="line">    Serial.print(<span class="stringliteral">&quot;yaw: &quot;</span>);</div>
 <div class="line">    Serial.print(euler.yaw);</div>

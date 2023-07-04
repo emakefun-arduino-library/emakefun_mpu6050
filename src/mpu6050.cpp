@@ -3201,7 +3201,7 @@ bool Mpu6050::Setup() {
   return i2c_device_.Read(MPU6050_RA_WHO_AM_I) == 0x68;
 }
 
-bool Mpu6050::UpdateQuaternion() {
+bool Mpu6050::UpdateMotionInfo() {
   uint8_t data[FIFO_SIZE] = {0};
 
   if (!GetCurrentFifoPacket(data, sizeof(data))) {

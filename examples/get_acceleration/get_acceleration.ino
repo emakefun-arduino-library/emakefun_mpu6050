@@ -11,7 +11,7 @@ void setup() {
 }
 
 void loop() {
-  if (mpu6050.UpdateQuaternion()) {
+  if (mpu6050.UpdateMotionInfo()) {
     const auto acceleration = mpu6050.GetAcceleration();
     Serial.print("acceleration x: ");
     Serial.print(acceleration.x);

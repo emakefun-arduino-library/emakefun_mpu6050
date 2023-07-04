@@ -46,10 +46,10 @@ class Mpu6050 {
   bool Setup();
 
   /**
-   * @brief Updates the quaternion values.
+   * @brief Updates motion information.
    * @return true if the update is successful, false otherwise.
    */
-  bool UpdateQuaternion();
+  bool UpdateMotionInfo();
 
   /**
    * @brief Gets the Euler angles.
