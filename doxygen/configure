@@ -3,4 +3,6 @@
 PROJECT_NAME     = "Emakefun MPU-6050"
 PROJECT_NUMBER   = 1.0
 OUTPUT_LANGUAGE  = English
-INPUT            = src
+INPUT            = src \
+                   examples/get_acceleration/get_acceleration.ino \
+                   examples/get_euler/get_euler.ino

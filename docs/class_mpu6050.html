@@ -103,7 +103,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a521b19e7592581236f0cf1b7dca94f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the MPU6050.  <br /></td></tr>
 <tr class="separator:a521b19e7592581236f0cf1b7dca94f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2ada16666d60f9df7f118d5e41bcc4c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mpu6050.html#ac2ada16666d60f9df7f118d5e41bcc4c">UpdateMotionInfo</a> ()</td></tr>
-<tr class="memdesc:ac2ada16666d60f9df7f118d5e41bcc4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates information from fifo data of mpu6050.  <br /></td></tr>
+<tr class="memdesc:ac2ada16666d60f9df7f118d5e41bcc4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates motion information.  <br /></td></tr>
 <tr class="separator:ac2ada16666d60f9df7f118d5e41bcc4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f3d91abbe8e945b60453b6d79bc530c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mpu6050_1_1_euler.html">Euler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mpu6050.html#a1f3d91abbe8e945b60453b6d79bc530c">GetEuler</a> () const</td></tr>
 <tr class="memdesc:a1f3d91abbe8e945b60453b6d79bc530c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="struct_mpu6050_1_1_euler.html" title="Euler angles (yaw, pitch, and roll).">Euler</a> angles.  <br /></td></tr>
@@ -168,6 +168,8 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the acceleration values. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="struct_mpu6050_1_1_acceleration.html" title="Acceleration in x, y, and z directions.">Acceleration</a> in x, y, and z directions. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="get_acceleration_8ino-example.html#a3">get_acceleration.ino</a>.</dd>
+</dl>
 
 </div>
 </div>
@@ -188,6 +190,8 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the <a class="el" href="struct_mpu6050_1_1_euler.html" title="Euler angles (yaw, pitch, and roll).">Euler</a> angles. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="struct_mpu6050_1_1_euler.html" title="Euler angles (yaw, pitch, and roll).">Euler</a> angles (yaw, pitch, and roll). </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="get_euler_8ino-example.html#a3">get_euler.ino</a>.</dd>
+</dl>
 
 </div>
 </div>
@@ -208,6 +212,8 @@ Public Member Functions</h2></td></tr>
 
 <p>Sets up the MPU6050. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if setup is successful, false otherwise. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="get_acceleration_8ino-example.html#a1">get_acceleration.ino</a>, and <a class="el" href="get_euler_8ino-example.html#a1">get_euler.ino</a>.</dd>
+</dl>
 
 </div>
 </div>
@@ -226,8 +232,10 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Updates information from fifo data of mpu6050. </p>
+<p>Updates motion information. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if the update is successful, false otherwise. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="get_acceleration_8ino-example.html#a2">get_acceleration.ino</a>, and <a class="el" href="get_euler_8ino-example.html#a2">get_euler.ino</a>.</dd>
+</dl>
 
 </div>
 </div>

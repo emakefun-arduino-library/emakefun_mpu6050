@@ -80,13 +80,13 @@ $(function() {
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span> setup() {</div>
 <div class="line">  Serial.begin(115200);</div>
-<div class="line">  mpu6050.Setup();</div>
+<div class="line">  mpu6050.<a id="a1" name="a1"></a><a class="code hl_function" href="class_mpu6050.html#a521b19e7592581236f0cf1b7dca94f68">Setup</a>();</div>
 <div class="line">  Serial.println(<span class="stringliteral">&quot;setup done&quot;</span>);</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span> loop() {</div>
-<div class="line">  <span class="keywordflow">if</span> (mpu6050.UpdateMotionInfo()) {</div>
-<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> acceleration = mpu6050.GetAcceleration();</div>
+<div class="line">  <span class="keywordflow">if</span> (mpu6050.<a id="a2" name="a2"></a><a class="code hl_function" href="class_mpu6050.html#ac2ada16666d60f9df7f118d5e41bcc4c">UpdateMotionInfo</a>()) {</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> acceleration = mpu6050.<a id="a3" name="a3"></a><a class="code hl_function" href="class_mpu6050.html#a69abdc31cadd9dc2ab2b61a6cd46d921">GetAcceleration</a>();</div>
 <div class="line">    Serial.print(<span class="stringliteral">&quot;acceleration x: &quot;</span>);</div>
 <div class="line">    Serial.print(acceleration.x);</div>
 <div class="line">    Serial.print(<span class="stringliteral">&quot;, y: &quot;</span>);</div>
@@ -96,6 +96,9 @@ $(function() {
 <div class="line">  }</div>
 <div class="line">}</div>
 <div class="ttc" id="aclass_mpu6050_html"><div class="ttname"><a href="class_mpu6050.html">Mpu6050</a></div><div class="ttdef"><b>Definition</b> mpu6050.h:11</div></div>
+<div class="ttc" id="aclass_mpu6050_html_a521b19e7592581236f0cf1b7dca94f68"><div class="ttname"><a href="class_mpu6050.html#a521b19e7592581236f0cf1b7dca94f68">Mpu6050::Setup</a></div><div class="ttdeci">bool Setup()</div><div class="ttdoc">Sets up the MPU6050.</div><div class="ttdef"><b>Definition</b> mpu6050.cpp:3123</div></div>
+<div class="ttc" id="aclass_mpu6050_html_a69abdc31cadd9dc2ab2b61a6cd46d921"><div class="ttname"><a href="class_mpu6050.html#a69abdc31cadd9dc2ab2b61a6cd46d921">Mpu6050::GetAcceleration</a></div><div class="ttdeci">Acceleration GetAcceleration() const</div><div class="ttdoc">Gets the acceleration values.</div><div class="ttdef"><b>Definition</b> mpu6050.cpp:3242</div></div>
+<div class="ttc" id="aclass_mpu6050_html_ac2ada16666d60f9df7f118d5e41bcc4c"><div class="ttname"><a href="class_mpu6050.html#ac2ada16666d60f9df7f118d5e41bcc4c">Mpu6050::UpdateMotionInfo</a></div><div class="ttdeci">bool UpdateMotionInfo()</div><div class="ttdoc">Updates motion information.</div><div class="ttdef"><b>Definition</b> mpu6050.cpp:3204</div></div>
 </div><!-- fragment --> </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
